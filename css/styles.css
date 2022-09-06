@@ -1,0 +1,192 @@
+:root {
+   --main-text-color: #757575;
+   --header-color: #212121;
+   --main-header-color: #FFFFFF;
+   --buttons-accent-color: #2196F3;
+   --background-color-footer: #2F303A;
+   --background-color-teem: #F5F4FA;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   color: var(--main-text-color);
+   background-color: var(--main-header-color);
+   letter-spacing: 0.03em;
+   font-size: 14px;
+   line-height: 1.71;
+}
+
+.list {
+   list-style: none;
+   text-decoration: none;
+}
+
+.logo-up,
+.logo-dawn {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   text-decoration: none;
+}
+
+.logo-up {
+   color: var(--header-color);
+}
+
+.navigation,
+.up-contacts {
+   font-weight: 500; 
+   letter-spacing: 0.02em;
+   line-height: 1.14;
+}
+
+.navigation {
+   color: var(--header-color);
+}
+
+.web-logo,
+.activity {
+   color: var(--buttons-accent-color);
+}
+
+.up-contacts {
+   color: inherit;
+   color: var(--main-text-color);
+}
+   
+.mainbox {
+   background-color: var(--background-color-footer);
+   }
+
+.main {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: var(--main-header-color)
+}
+
+.button {
+   font-size: inherit;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   letter-spacing: 0.06em;
+   color: var(--main-header-color);
+   background-color: var(--buttons-accent-color);
+   border: 0;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.button:hover, 
+.button:focus {
+   background-color: #188CE8;
+}
+
+.hide {
+   display: none;
+}
+
+.advantages .h3 {
+   font-weight: 700;
+   line-height: 1.14;
+   text-transform: uppercase;
+   color: var(--header-color);
+}
+
+.team {
+   background: var(--background-color-teem)
+}
+
+.teams {
+   background-color: var(--main-header-color);
+}
+
+.work,
+.team .h2 {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.67px;
+   color: var(--header-color);
+}
+
+.teams .h3 {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.19;
+   color: var(--header-color);
+}
+
+.teams .p {
+   font-size: 16px;
+   line-height: 1.19;
+}
+
+.footer {
+   background-color: var(--background-color-footer);
+}
+
+.logo-dawn {
+   color: var(--main-header-color);
+}
+
+.adress,
+.dawn-contacts {
+   font-style: normal;
+}
+
+.adress {
+   color: var(--main-header-color);
+}
+
+.dawn-contacts {
+   color: rgba(255, 255, 255, 0.6);
+}
+
+/* paga 2 portfolio */
+
+.button-portfolio {
+   font-family: inherit;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   color: var(--header-color);
+   cursor: pointer;
+   background: var(--background-color-teem);
+   border-radius: 4px;
+}
+
+.button-portfolio button:hover,
+.button-portfolio button:focus {
+   background-color: var(--buttons-accent-color);
+   color: var(--main-header-color);
+}
+
+.example .h2 {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2px;
+   letter-spacing: 0.06em;
+   color: var(--header-color);
+}
+
+.example .p {
+   font-size: 16px;
+   line-height: 1.88;
+   color: var(--main-text-color);
+}
+
+.navigation a:hover,
+.navigation a:focus,
+.up-contacts a:hover,
+.up-contacts a:focus,
+.adress:hover,
+.adress:focus,
+.dawn-contacts:hover,
+.dawn-contacts:focus {
+   color: var(--buttons-accent-color);
+}
